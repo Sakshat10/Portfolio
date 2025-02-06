@@ -15,7 +15,7 @@ const Grid = () => {
 
   return (
     <section id="about">
-      <BentoGrid className="max-w-[90vw] w-full py-20 text-white z-50">
+      <BentoGrid className="max-w-[90vw] w-full py-20 text-white z-50 text-3xl">
         {gridItems.map((item, i) => (
           <BentoGridItem
             id={item.id}
