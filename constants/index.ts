@@ -12,8 +12,9 @@ import git from "../assets/tech/git.png";
 import Rust from "../assets/tech/Rust.png";
 import Solidity from "../assets/tech/solidity.png";
 import lumox from "../assets/lumox.png";
-import AiBanshee from "../assets/AiBanshee.png";
+import Shophekart from "../assets/ShopHekart.png";
 import HackFest from "../assets/HackFest.png"
+import Rental from "../assets/Rental.png"
 
 
 export const Socials = [
@@ -38,7 +39,7 @@ export const gridItems = [
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-start",
+    titleClassName: "justify-end",
     img: "/b1.svg",
     spareImg: "",
   },
@@ -64,8 +65,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title: "Sakshat Kumar",
+    description: "FullStack Blockchain Developer",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -75,11 +76,11 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Inventing a Seamless JS Animation Framework",
-    description: "The Inside Scoop",
+    title: "I am open for opportunities to work",
+    description: "Currently building real world projects and learning new things",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-start md:justify-center lg:justify-center",
+    titleClassName: "justify-center md:justify-center lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
@@ -218,32 +219,40 @@ export const projects = [
         name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Wagmi",
+        color: "blue-text-gradient",
+      },
     ],
     image: lumox,
     source_code_link: "https://github.com/Sakshat10/Lumox-Studio",
     link:"https://lumoxstudio.com/"
   },
   {
-    name: "AiBanshee",
+    name: "ShophEkart",
     description:
-      "AI Banshee, a decentralized exchange (DEX) startup, uses Next.js, TypeScript, Tailwind CSS, and framer-motion for robust, secure, and engaging platforms.",
+      "The world's first platform to shop, tokenize luxury goods, and trade physical and digital assets effortlessly, blending commerce with blockchain for a seamless experience.",
     tags: [
       {
-        name: "react",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "Tailwind",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
         name: "Wagmi",
         color: "pink-text-gradient",
       },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
     ],
-    image: AiBanshee,
-    source_code_link: "https://github.com/Sakshat10/AiBanshee",
-    link:"https://aibanshee.com/"
+    image: Shophekart,
+    source_code_link: "https://github.com/Sakshat10",
+    link:"https://www.shophekart.com/"
   },
   {
     name: "Hack The Fest",
@@ -262,5 +271,27 @@ export const projects = [
     image: HackFest,
     source_code_link: "https://github.com/Sakshat10/hackthefest2-new",
     link:"https://hackthefest2-new.vercel.app/"
+  },
+  {
+    name: "Rentals Digital",
+    description:
+      "The new cryptocurrency payment ecosystem that rewards its users for their travels and tourism.",
+    tags: [
+      {
+        name: "Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Wagmi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Rental,
+    source_code_link: "https://github.com/Sakshat10/Rentals-Digital",
+    link:"https://rentals-digital.vercel.app/"
   },
 ];
