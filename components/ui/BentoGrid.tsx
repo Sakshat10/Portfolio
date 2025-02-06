@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/cn";
@@ -37,7 +36,6 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
