@@ -28,10 +28,7 @@ const Footer = () => {
           </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col gap-3 justify-between items-center px-5">
-        <p className="md:text-base text-sm md:font-normal font-light text-white">
-          Copyright © 2024 Sakshat Kumar
-        </p>
-
+       
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
             <motion.div
@@ -48,6 +45,10 @@ const Footer = () => {
             </motion.div>
           ))}
         </div>
+        <p className="md:text-base text-sm md:font-normal font-light text-white">
+          Copyright © 2024 Sakshat Kumar
+        </p>
+
       </div>
     </footer>
   );
