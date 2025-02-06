@@ -91,7 +91,7 @@ const ProjectCard: React.FC<Project> = ({
 
 const Works: React.FC = () => {
   return (
-    <>
+    <div id="projects">
       <motion.div className="text-center">
         <h2 className={`${styles.sectionHeadText}`}>My <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">Projects</span> </h2>
       </motion.div>
@@ -108,12 +108,12 @@ const Works: React.FC = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 ">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
