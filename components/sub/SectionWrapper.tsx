@@ -1,3 +1,4 @@
+"use client"
 import { motion } from "framer-motion";
 import { ComponentType } from "react";
 import { styles } from "../ui/Styles";
