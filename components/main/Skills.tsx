@@ -1,4 +1,5 @@
-  import React from "react";
+ "use client"
+ import React from "react";
 
   import SkillText from "../sub/SkillText";
 import Tech from "./Tech";
