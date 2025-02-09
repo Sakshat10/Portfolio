@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { Download } from "lucide-react";
 
 const HeroContent: React.FC = () => {
   const [mounted, setMounted] = useState(false);
@@ -37,8 +38,12 @@ const HeroContent: React.FC = () => {
             I&apos;m a Full Stack Software Engineer with experience in Website,
             Mobile, and Software development. Check out my projects and skills.
           </p>
-          <a className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
-            Learn More!
+          <a
+          href="/Sakshat_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+           className="py-2 flex justify-center gap-5 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+            Resume <Download/>
           </a>
         </div>
         <div className="w-full h-full flex justify-center items-center">
@@ -87,10 +92,13 @@ const HeroContent: React.FC = () => {
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
         <motion.a
+         href="/Sakshat_Resume.pdf"
+         target="_blank"
+         rel="noopener noreferrer"
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 flex justify-center gap-5 font-bold button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Resume <Download/>
         </motion.a>
       </div>
 
